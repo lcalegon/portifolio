@@ -1,0 +1,107 @@
+* {     margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;  
+        }
+
+.cabeçalho {
+        display: flex;
+        background-color: #1f1e24;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        }
+
+.cabeçalho-menu {
+        display: flex;
+        gap: 32px;
+        }
+        
+.cabeçalho-opção {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b7bfe1;
+        font-weight: 400px;
+        font-size: 20px;
+        }
+
+.menu{border-top: 0.4px solid #2445a0; 
+        margin-bottom: 48px;
+        background-color: #262536;
+        display: flex;
+        justify-content: center;
+        border-bottom: 0.6px solid #2445a0;
+        }
+
+.menu-principal{align-items: center;
+        justify-content: center;     
+        flex-direction: row; 
+        padding: 40px 0px 50px 0px;
+             
+        }
+.imagem-perfil{border-radius: 50%;
+                height: 400px ;
+                display: flex;
+                object-fit: cover;
+                border: 3px solid #2445a0;
+        }
+.menu-nome{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b7bfe1;
+        text-shadow: 4px 4px 4px #181722;
+        text-align: center;
+        font-size: 40px;
+
+        }
+.menu-sobremim{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b7bfe1;
+        text-align: center;
+        text-shadow: 4px 4px 4px #181722;
+        font-size: 20px;
+        font-weight: 50;
+        }
+
+.sobremim{
+        text-align: center;
+        }
+
+.sobremim-titulo{  
+        font-family: Arial, Helvetica, sans-serif;    
+        font-size: 40px;
+        color: #2445a0;
+        text-shadow: 4px 4px 4px #cecece;
+        }
+
+.sobremim-subtitulo {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 28px;
+        font-weight: 600;
+        font-size: 24px;
+        color: #2445a0;
+        text-shadow: 3px 3px 3px #cecece;
+        }
+.sobremim-texto1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #2e6dbe;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: justify;
+        text-shadow: 3px 3px 3px #cecece;
+        }
+.sobremim-texto2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #2e6dbe;
+        text-align: center;
+        text-shadow: 3px 3px 3px #cecece;
+        }
+.rodape {
+        padding: 32px;
+        background-color: #ffffff;
+        border-top: 0.4px solid #2445a0; 
+        }
